@@ -43,7 +43,7 @@ The objective of this test is to evaluate different topics of frontend developme
 
 ## Stack
 
-In this exercise, we encourage you to use the technologies that we use in our daily basis:
+In this exercise, we encourage you to use the technologies that we use on a daily basis:
 *   HTML
 *   TypeScript
 *   Vue.js
@@ -51,15 +51,15 @@ In this exercise, we encourage you to use the technologies that we use in our da
 *   Webpack
 *   Yarn
 
-If you want to use other technologies, patterns or add features to enhance your application (such as Vuex, Jest, RTL, responsive design), you are free to do so.
+If you want to use other technologies, patterns, or add features to enhance your application (such as Vuex, Jest, RTL, responsive design), you are free to do so.
 
 As for using a component library, you have multiple choices:
-- If you already know and use a specific Vue.js component library, you can use it and save some time on the development process.
+- If you already know and use a specific Vue.js component library, you can use it and save some time in the development process.
 - If you do not know any library, use the one already installed: [https://next.vuetifyjs.com/en/](https://next.vuetifyjs.com/en/)
 
 ### Ground rules
 
-* We strongly suggest that you use the technologies suggested under the Stack section.
+* We strongly suggest that you use the technologies listed under the Stack section.
 * If you want to use your own boilerplate, you are free to override the whole repository, but you should note that this could take more time than just using the provided one.
 
 ## Setup
@@ -67,12 +67,12 @@ As for using a component library, you have multiple choices:
 You should download the code and create your own repository.
 
 In the project directory, you need to run: `yarn`
-This will setup the necessary dependencies to execute this project.
+This will set up the necessary dependencies to execute this project.
 
-You will need to use Node.js version 20 in order to run this project. Not doing so will result in an error. We suggest using a node version manager [nvm](https://github.com/nvm-sh/nvm) for the purpose.
+You will need to use Node.js version 20 to run this project. Not doing so will result in an error. We suggest using a node version manager [nvm](https://github.com/nvm-sh/nvm) for this purpose.
 
 To start development, execute `yarn start`, which will run the app in development mode.
 
 ## Project delivery
 
-This project should be accessible on GitHub as either a private or public repository. Your recruiter will provide further details when it comes to who to give access to the repository.
+This project should be accessible on GitHub as either a private or public repository. Your recruiter will provide further details about who to give access to the repository.
