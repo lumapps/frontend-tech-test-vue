@@ -1,21 +1,14 @@
 # LumApps Frontend Test
 
-## Introduction
+Welcome to the LumApps Frontend Technical Test. In this test, you will create a small frontend application using the technologies that we at LumApps use in our daily routine.
 
-Welcome to the LumApps Frontend Technical Test. In this test, the candidate will need to create a small frontend application using the technologies that we at LumApps use in our daily routine.
+## The task
 
-## What is the candidate going to develop?
-
-### Description 
-
-In this technical test, the idea is to create a simple frontend application that retrieves data from a server and renders a list of entities. The candidate will be using a locally provided API in order to list the different characters, and the candidate needs to allow the user to search for a character based on their name. The main page should:
-- When the user searches for a character, by typing on the Search field, and hits enter, a list of 4 results will be displayed. The results displayed should display characters where their name starts with the text entered by the user on the Search field.
-- At the bottom of the page, a simple pagination system will be displayed, that will allow the user to see more results.
-- A second API is provided in order to retrieve the reactions that each of these characters has. The candidate needs to retrieve this data and add it to each of the characters displayed
+The task is to create a simple frontend application that retrieves data from a server and renders a list of entities. You will be using a locally provided API to list the different characters, allow the user to search for a character based on their name and to display characters' reactions.
 
 ### Mockup
 
-Below you will find a low fidelity mockup of the application which should give the idea of how the application should work. This does not mean that the candidate's test needs to be exactly identical to the design, this test will not evaluate the candidate's skill to create web applications that are pixel perfect. However, a general coherence in terms of style, spacing and sizes will be evaluated.
+Below you will find a low-fidelity mockup of the application which should give you the idea of how the application should work. This does not mean that your solution needs to be exactly identical to the design. We do not want you to be pixel-perfect; however, a general coherence in terms of style, spacing and sizes will be evaluated.
 
 Each result displays:
 - Character's image
@@ -29,20 +22,19 @@ The Pagination component should be present at the bottom of the page.
 
 ### Acceptance criteria
 
-For this test to be completed, the candidate's application should:
-- Allow the user to search for characters by their name
-- Display a list of 4 results, each of them with an image, title, description and the additional data
-- Reactions for each character.
-- A pagination component that allows the user to navigate between pages.
+For this test to be completed, your application should fulfill the following criteria:
+- As a user, I can search for a character by typing on the Search field. As a result, a list of 4 matching characters is displayed. An API is provided to retrieve the characters.
+- As a user, I can browse through the results using a pagination component visible at the bottom of the page.
+- As a user, I can see the reactions that each of these characters has. A second API is provided to retrieve the reactions.
 
-These features are what LumApps requires for considering this test as a complete one and the candidate should focus on having these features developed before developing additional features, functionality should be the focus of the test. If the search, reactions or the pagination features do not work or are not developed, the test will be considered as incomplete and it will affect the final review.
+These criteria are what we require to consider this test as complete. Any additional functionalities should come as secondary. If the search, reactions or the pagination features do not work or are not developed, the test will be considered as incomplete, and it will affect the final review.
 
 ## What will be evaluated?
 
 The objective of this test is to evaluate different topics of frontend development. Specifically:
-- The level of expertise that a candidate has with the web stack, which includes HTML, CSS and JavaScript, and how the candidate uses these languages in order to solve a problem.
-- The level of expertise when it comes to JavaScript and VueJS in general. 
-- The attention that the candidate has for the general quality of the application. Specifically in terms of:
+- The level of expertise that you have with the web stack, which includes HTML, CSS, TypeScript and how you use these languages to solve a problem.
+- The level of expertise when it comes to TypeScript and Vue.js in general. 
+- The attention that you have for the general quality of the application. Specifically, in terms of:
     - Accessibility
     - Performance
     - Usability and visual coherence
@@ -51,36 +43,36 @@ The objective of this test is to evaluate different topics of frontend developme
 
 ## Stack
 
-In this test, we encourage the candidate to use the technologies that we use in our daily basis:
+In this exercise, we encourage you to use the technologies that we use in our daily basis:
 *   HTML
-*   JavaScript
-*   Vue JS
+*   TypeScript
+*   Vue.js
 *   SCSS
+*   Webpack
 *   Yarn
-*   Webpack and Webpack Dev Server
 
-If the candidate wants to use other technologies or add features in order to enhance their application (such as, Vuex, Jest, RTL, responsive design), they can do so.
+If you want to use other technologies, patterns or add features to enhance your application (such as Vuex, Jest, RTL, responsive design), you are free to do so.
 
-As for using a components library, the candidate has multiple choices:
-- If the candidate already knows and uses a specific VueJS components library, they can use it and save sometime on the development process.
-- If the candidate does not know any library, they can use the following library installed: [https://next.vuetifyjs.com/en/](https://next.vuetifyjs.com/en/)
+As for using a component library, you have multiple choices:
+- If you already know and use a specific Vue.js component library, you can use it and save some time on the development process.
+- If you do not know any library, use the one already installed: [https://next.vuetifyjs.com/en/](https://next.vuetifyjs.com/en/)
 
 ### Ground rules
 
-* We strongly suggest that the candidate uses the technologies suggested under the Stack section.
-* If the candidate wants to use their own boilerplate, they are free to override the whole repository, but the candidate should note that this could take more time than just using the provided boilerplate.
+* We strongly suggest that you use the technologies suggested under the Stack section.
+* If you want to use your own boilerplate, you are free to override the whole repository, but you should note that this could take more time than just using the provided one.
 
 ## Setup
 
-The candidate should fork the repo and create their own, downloading it locally.
+You should download the code and create your own repository.
 
-In the project directory, the candidate needs to run: `yarn`
+In the project directory, you need to run: `yarn`
 This will setup the necessary dependencies to execute this project.
 
-The candidate will need to use Node JS v.20.11.1 in order to run this project. Not doing so will result in an error. The candidate can install this particular version using [nvm](https://github.com/nvm-sh/nvm).
+You will need to use Node.js version 20 in order to run this project. Not doing so will result in an error. We suggest using a node version manager [nvm](https://github.com/nvm-sh/nvm) for the purpose.
 
-To start development, the candidate can execute `yarn start`, which will run the app in development mode.
+To start development, execute `yarn start`, which will run the app in development mode.
 
 ## Project delivery
 
-This project should be accessible on GitHub as either a private or public repository. The candidate's recruiter will provide further details when it comes to who to give access to the repository.
+This project should be accessible on GitHub as either a private or public repository. Your recruiter will provide further details when it comes to who to give access to the repository.
