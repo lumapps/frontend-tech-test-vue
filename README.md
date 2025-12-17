@@ -48,7 +48,7 @@ In this exercise, we encourage you to use the technologies that we use on a dail
 *   TypeScript
 *   Vue.js
 *   SCSS
-*   Webpack
+*   Vite
 *   Yarn
 
 If you want to use other technologies, patterns, or add features to enhance your application (such as Vuex, Jest, RTL, responsive design), you are free to do so.
