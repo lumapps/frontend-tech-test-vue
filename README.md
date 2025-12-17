@@ -73,6 +73,10 @@ You will need to use Node.js version 20 to run this project. Not doing so will r
 
 To start development, execute `yarn start`, which will run the app in development mode.
 
+### API Mocking
+
+This project uses [Mock Service Worker (MSW)](https://mswjs.io/) to simulate API responses. The mock handlers are already configured and will intercept your API calls automatically when you run the development server. You don't need to set up a separate backend - the mocked APIs will provide the character data and reactions you need for the test.
+
 ## Project delivery
 
 This project should be accessible on GitHub as either a private or public repository. Your recruiter will provide further details about who to give access to the repository.
